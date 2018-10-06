@@ -1,0 +1,30 @@
+import java.util.Arrays;
+class ArrayClass
+{
+  public static void main(String [] args) 
+  {
+    int[]num = new int [10];
+    int firstNum = 0;
+    int secondNum = 1;
+    int thirdNum = 2;
+    int fourthNum = 3;
+    int fifthNum = 4;
+    int sixthNum = 5;
+    int seventhNum = 6;
+    int eighthNum = 7;
+    int ninthNum = 8;
+    int tenthNum = 9;
+    num[0] = firstNum;
+    num[1] = secondNum;
+    num[2] = thirdNum;
+    num[3] = fourthNum;
+    num[4] = fifthNum;
+    num[5] = sixthNum;
+    num[6] = seventhNum;
+    num[7] = eighthNum;
+    num[8] = ninthNum;
+    num[9] = tenthNum;
+    
+    System.out.println(Arrays.toString(num));
+  }
+}
